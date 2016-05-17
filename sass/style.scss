@@ -1,0 +1,261 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	li{
+		display: inline-block;
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: 600;
+		}
+	}
+}
+
+header{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	height: 100%;
+	
+	div{
+		width: 70%;
+		margin: auto;
+		position: relative;
+		top: 2%;
+
+		nav{
+			width: 1000px;
+			margin: auto;
+			
+			img{
+			width: 70px;
+			}
+
+			ul{
+				float: right;
+
+				li{
+					margin: 0 15px;
+
+					a{
+						color: black;
+
+						&:hover{
+							border: 2px solid black;
+							padding: 5px;
+							-webkit-transition: all 0.2s ease-in-out;
+							-moz-transition: all 0.2s ease-in-out;
+							-o-transition: all 0.2s ease-in-out;
+							transition: all 0.2s ease-in-out;
+						}
+					}
+
+
+				}
+			}
+		}
+	}
+
+	.contenedor-header {
+		margin: auto;
+		width: 600px;
+		overflow: auto;
+		margin-top: 100px;
+
+
+		article{
+			width: 300px;
+			text-align: justify;
+	  		margin:auto;
+	  		float: right;
+
+
+	  			h1 {
+	  				font-family: "Lora", serif;
+	  				font-size: 68px;
+	  				line-height: 60px;
+	  				color: #eb768c;
+					text-transform: uppercase;
+					margin-bottom: 10px;
+					
+					.gris {
+						color:#4a4a4a;
+					}
+
+					.skate{
+						font-size: 92px;	
+					}
+
+					.create{
+						font-size: 76px;	
+					}
+	  			}
+
+	  			h2 {
+	  				font-size: 12px;
+	  				color:#4a4a4a ;
+	  				text-align: center;
+	  				font-weight: 400;
+
+	  			}
+				div{
+					margin: auto;
+					text-align: center;
+		  			
+		  			a { 
+			  			text-decoration: none;
+					    text-transform: uppercase;
+					    font-size: 10px;
+					    padding: 10px 15px;
+					    border-radius: 50px;
+					    display: inline-block;
+		  			}
+
+		  			.boton-gris{
+		  				border: 1px solid #4a4a4a;
+		  				color: #4a4a4a;
+		  			}
+
+		  			.boton-rosa{
+		  				color: white;
+		  				background-color: #eb768c;
+		  			}
+	  			}
+	  	}
+	}
+}
+
+footer{
+	background-color:#313131;
+
+	div{
+		width: 1000px;
+		margin: auto;
+
+		article{
+			display: inline-block;
+		    width: 288px;
+		    padding: 80px 20px;
+		    text-align: center;
+
+		    h3{
+		    	color: white;
+		    	font-size: 15px;
+		    	margin-bottom: 30px;
+		    	font-weight: 400;
+		    }
+
+			p{
+				color:#969595;
+				font-size: 12px;
+				line-height: 20px;
+				font-weight: 400;
+			}
+
+			a { 
+			  	text-decoration: none;
+				text-transform: uppercase;
+				font-size: 10px;
+				padding: 10px 15px;
+				border-radius: 50px;
+				display: inline-block;
+				margin-top: 20px;
+		  		}
+
+		  	.boton-gris{
+		  		border: 1px solid #969595;
+		  		color: #969595;
+		  	}
+			
+			.boton-azul{
+		  		color: white;
+		  		background-color: #31aae2;
+		  	}
+
+		  	ul{
+		  		margin: auto;
+		  		display: inline-block;
+		  		padding:0; 
+		  		margin-top: 10px;
+
+		  		li{
+		  			text-align: center;
+		  			a{
+		  				margin: 0;
+		  				padding: 0;
+
+		  				span{
+		  					font-size: 20px;
+						    color: #969595;
+						    width: 20px;
+						    height: 20px;
+						    background-color: #464646;
+						    display: inline-block;
+						    padding: 10px;
+						    border-radius: 30px;
+
+						    &:hover{
+						    	color: white;
+						    	background-color:#31aae2;
+						    }
+		  				}
+		  			}
+		  		}
+		  	}
+		}
+
+		.footer-bordes{
+			border-right: 1px solid #969595;
+			border-left: 1px solid #969595;
+		}
+	}
+
+	.piefooter{
+		background-color:#262525;
+		width: 100%;
+		border-top: 1px solid #969595;
+
+		div{
+			width: 1000px;
+
+			h6{
+				text-transform: uppercase;
+				color:#969595;
+				font-size: 10px;
+				font-weight: 400;
+				display: inline-block;
+			}
+		}
+
+		ul{
+			float: right;
+
+			li{
+				margin: 0 15px;
+
+				a{
+					text-transform: uppercase;
+					color:#969595;
+					font-size: 10px;
+					font-weight: 400;
+
+					&:hover{
+						color: white;
+					}					
+				}
+
+			}
+		}
+	}
+}
+
